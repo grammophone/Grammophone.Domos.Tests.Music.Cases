@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ProjectGuid>{1A73F497-A96E-43E8-B5F0-E85D8D91CA40}</ProjectGuid>
+		<TargetFrameworks>net472;net8.0</TargetFrameworks>
+		<AssemblyTitle>Grammophone.Domos.Tests.Music.Cases</AssemblyTitle>
+		<Product>Grammophone.Domos.Tests.Music.Cases</Product>
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Grammophone.Domos.Tests.Music.Logic\Grammophone.Domos.Tests.Music.Logic.csproj" />
+	</ItemGroup>
+</Project>
