@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<ProjectGuid>{1A73F497-A96E-43E8-B5F0-E85D8D91CA40}</ProjectGuid>
-		<TargetFrameworks>net472;net8.0</TargetFrameworks>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<AssemblyTitle>Grammophone.Domos.Tests.Music.Cases</AssemblyTitle>
 		<Product>Grammophone.Domos.Tests.Music.Cases</Product>
 		<LangVersion>8.0</LangVersion>
